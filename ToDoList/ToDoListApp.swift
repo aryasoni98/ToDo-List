@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@main
+@ main
 struct ToDoListApp: App {
     
     @StateObject var listViewModel: ListViewModel = ListViewModel()
@@ -17,6 +17,7 @@ struct ToDoListApp: App {
             NavigationView {
                 ListView()
             }
+            .navigationViewStyle(StackNavigationViewStyle())
             .environmentObject(listViewModel)
         }
     }
