@@ -25,9 +25,7 @@ struct AddView: View {
                     .background(Color(#colorLiteral(red: 0.8977699876, green: 0.8979206681, blue: 0.8977500796, alpha: 1)))
                     .cornerRadius(10)
                 
-                Button(action: {
-                
-                }, label: {
+                Button(action: saveButtonPressed, label: {
                     Text("Save".uppercased())
                         .foregroundColor(.white)
                         .font(.headline)
@@ -53,6 +51,7 @@ struct AddView: View {
     func textIsAppropriate() -> Bool {
         if textFieldText.count < 3 {
             alertTitle = "Your new todo item must be at least 3 characters long !!! 😒😥😱"
+            showAlert.toggle()
             return false
         }
         return true
