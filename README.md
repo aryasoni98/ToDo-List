@@ -1,6 +1,6 @@
 <div align="center">
 
-<p align="center"> <img src="AppIcon.png" alt="hello" width="100" /></p>
+![ToDo-List](https://socialify.git.ci/aryasoni98/ToDo-List/image?description=1&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Faryasoni98%2FToDo-List%2Fmain%2FAppIcon.png&owner=1&pulls=1&stargazers=1&theme=Light)
 
 # Do Stuff - ToDo List App
 Easily Manage Your Daily Tasks . . . !
